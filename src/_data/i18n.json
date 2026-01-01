@@ -1,0 +1,568 @@
+{
+    "nav": {
+        "home": {
+            "en": "Home",
+            "fr": "Accueil",
+            "link": {
+                "en": "/en/",
+                "fr": "/fr/"
+            }
+        },
+        "services": {
+            "en": "Services",
+            "fr": "Services",
+            "link": {
+                "en": "/en/services/",
+                "fr": "/fr/services/"
+            }
+        },
+        "about": {
+            "en": "About",
+            "fr": "À Propos",
+            "link": {
+                "en": "/en/about/",
+                "fr": "/fr/a-propos/"
+            }
+        },
+        "contact": {
+            "en": "Contact",
+            "fr": "Contact",
+            "link": {
+                "en": "/en/contact/",
+                "fr": "/fr/contact/"
+            }
+        },
+        "privacy": {
+            "en": "Privacy Policy",
+            "fr": "Politique de Confidentialité",
+            "link": {
+                "en": "/en/privacy-policy/",
+                "fr": "/fr/politique-confidentialite/"
+            }
+        }
+    },
+    "hero": {
+        "title": {
+            "en": "Strategic Consulting in Critical Transitions",
+            "fr": "Conseil en Stratégie<br>Phases de Transition Critique"
+        },
+        "description": {
+            "en": "Kerlinkin supports leaders of enterprises of all sizes facing complex contexts: turnaround, underperformance, financial restructuring, or strategic rebound.",
+            "fr": "Kerlinkin accompagne les dirigeants d'entreprises de toutes tailles confrontés à des contextes complexes : retournement, sous-performance, restructuration financière ou rebond stratégique."
+        },
+        "cta": {
+            "en": "Get in Touch",
+            "fr": "Prendre rendez-vous"
+        },
+        "learn_more": {
+            "en": "Learn more",
+            "fr": "En savoir plus"
+        }
+    },
+    "services_new": {
+        "title": {
+            "en": "Our Expertise",
+            "fr": "Notre Intervention"
+        },
+        "description": {
+            "en": "We support you at every stage of your critical transitions.",
+            "fr": "Nous vous accompagnons à chaque étape de vos transitions critiques."
+        },
+        "items": [
+            {
+                "title": {
+                    "en": "Strategic & Operational Consulting",
+                    "fr": "Conseil Stratégique & Opérationnel"
+                },
+                "tagline": {
+                    "en": "See clearly to act fast",
+                    "fr": "Voir clair pour agir vite"
+                },
+                "description": {
+                    "en": "360° diagnostic, turnaround plans, crisis management, change management, digital transformation.",
+                    "fr": "Diagnostic 360°, plans de retournement, gestion de crise, conduite du changement, transformation numérique."
+                },
+                "details": [
+                    {
+                        "en": "Performance audit and identification of value levers.",
+                        "fr": "Audit de performance et identification des leviers de valeur."
+                    },
+                    {
+                        "en": "Design of strategic plans.",
+                        "fr": "Conception de plans stratégiques."
+                    },
+                    {
+                        "en": "Transformation steering and change management.",
+                        "fr": "Pilotage de la transformation et accompagnement du changement."
+                    },
+                    {
+                        "en": "Optimization of operational and digital processes.",
+                        "fr": "Optimisation des processus opérationnels et digitaux."
+                    }
+                ]
+            },
+            {
+                "title": {
+                    "en": "Restructuring & Financing",
+                    "fr": "Restructuration & Financement"
+                },
+                "tagline": {
+                    "en": "Regain maneuvering room",
+                    "fr": "Retrouver une marge de manœuvre"
+                },
+                "description": {
+                    "en": "Complex debt raising, creditor negotiation, insolvency proceedings, distressed M&A.",
+                    "fr": "Levée de dette complexe, négociation avec créanciers, procédures collectives, cession/acquisition sous contrainte."
+                },
+                "details": [
+                    {
+                        "en": "Analysis of financial structure and liquidity needs.",
+                        "fr": "Analyse de la structure financière et des besoins de liquidité."
+                    },
+                    {
+                        "en": "Negotiation with banks, creditors, and partners.",
+                        "fr": "Négociation avec les banques, créanciers et partenaires."
+                    },
+                    {
+                        "en": "Search for new financing (debt, equity, quasi-equity).",
+                        "fr": "Recherche de nouveaux financements (dette, equity, quasi-equity)."
+                    },
+                    {
+                        "en": "Support in preventive or collective proceedings.",
+                        "fr": "Accompagnement en procédures préventives ou collectives."
+                    }
+                ]
+            },
+            {
+                "title": {
+                    "en": "Targeted Business Recovery",
+                    "fr": "Reprise Ciblée d’Activité"
+                },
+                "tagline": {
+                    "en": "Regain control of your future",
+                    "fr": "Reprendre le contrôle de votre avenir"
+                },
+                "description": {
+                    "en": "Asset spin-offs, strategic co-development, relaunch after failure, offer repositioning.",
+                    "fr": "Spin-off d’actifs, co-développement stratégique, relance après échec ou repositionnement de l’offre."
+                },
+                "details": [
+                    {
+                        "en": "Identification of recovery opportunities (distressed M&A).",
+                        "fr": "Identification d'opportunités de reprise (distressed M&A)."
+                    },
+                    {
+                        "en": "Rapid strategic and financial due diligence.",
+                        "fr": "Due diligence stratégique et financière rapide."
+                    },
+                    {
+                        "en": "Structuring of the takeover offer and legal framework.",
+                        "fr": "Structuration de l'offre de reprise et du montage juridique."
+                    },
+                    {
+                        "en": "Integration and post-acquisition relaunch plan.",
+                        "fr": "Plan d'intégration et de relance post-acquisition."
+                    }
+                ]
+            },
+            {
+                "title": {
+                    "en": "Leaders' Circle",
+                    "fr": "Cercle de Dirigeants"
+                },
+                "tagline": {
+                    "en": "Break decision-making isolation",
+                    "fr": "Rompre l’isolement décisionnel"
+                },
+                "description": {
+                    "en": "Closed peer community, confidential mentorship, discreet experience sharing.",
+                    "fr": "Communauté fermée de pairs, mentorat confidentiel, partages d’expérience en toute discrétion."
+                },
+                "details": [
+                    {
+                        "en": "Exclusive access to a network of experienced leaders.",
+                        "fr": "Accès exclusif à un réseau de dirigeants expérimentés."
+                    },
+                    {
+                        "en": "Thematic workshops on crisis and growth challenges.",
+                        "fr": "Ateliers thématiques sur les enjeux de crise et de croissance."
+                    },
+                    {
+                        "en": "Individual mentorship to break leader isolation.",
+                        "fr": "Mentorat individuel pour briser la solitude du dirigeant."
+                    },
+                    {
+                        "en": "Sharing of best practices and strategic monitoring.",
+                        "fr": "Partage de bonnes pratiques et veille stratégique."
+                    }
+                ]
+            }
+        ]
+    },
+    "fundamentals_home": {
+        "title": {
+            "en": "Fundamentals that make the difference",
+            "fr": "Des fondamentaux qui font la différence"
+        },
+        "items": [
+            {
+                "metric": "360º",
+                "title": {
+                    "en": "Integrated Approach",
+                    "fr": "Approche intégrée"
+                },
+                "description": {
+                    "en": "When your company faces multidimensional challenges, fragmentation of advice is not an option. Kerlinkin's approach combines strategic, financial, legal, and operational expertise to offer you a coherent vision and optimized results.",
+                    "fr": "Quand votre entreprise fait face à des enjeux multidimensionnels, la fragmentation des conseils n’est pas une option. L’approche de Kerlinkin combine expertises stratégique, financière, juridique et opérationnelle pour vous offrir une vision cohérente et des résultats optimisés."
+                }
+            },
+            {
+                "metric": "48h",
+                "title": {
+                    "en": "Responsiveness",
+                    "fr": "Réactivité"
+                },
+                "description": {
+                    "en": "When every day counts, you benefit from our team's mobilization within 48h and an accelerated diagnostic process allowing the first actions to be initiated in less than a week.",
+                    "fr": "Lorsque chaque jour compte, vous bénéficiez d’une mobilisation de notre équipe sous 48h et d’un processus de diagnostic accéléré permettant d’initier les premières actions en moins d’une semaine."
+                }
+            },
+            {
+                "metric": "100 %",
+                "title": {
+                    "en": "Independence",
+                    "fr": "Indépendance"
+                },
+                "description": {
+                    "en": "Your interest comes first. With no equity link to funds or banks, Kerlinkin guarantees recommendations exclusively guided by your company's needs and your long-term vision.",
+                    "fr": "Votre intérêt prime. Sans lien capitalistique avec des fonds ou banques, Kerlinkin vous garantit des recommandations exclusivement guidées par les besoins de votre entreprise et votre vision à long terme."
+                }
+            },
+            {
+                "metric": "+1000",
+                "title": {
+                    "en": "Network",
+                    "fr": "Réseau"
+                },
+                "description": {
+                    "en": "Access specific financing and strategic partners usually inaccessible through traditional channels. The Kerlinkin network opens essential doors for your restructuring and future development.",
+                    "fr": "Accédez à des financements spécifiques et des partenaires stratégiques habituellement inaccessibles par les circuits traditionnels. Le réseau de Kerlinkin ouvre des portes essentielles pour votre restructuration et votre développement futur."
+                }
+            }
+        ]
+    },
+    "sectors_home": {
+        "title": {
+            "en": "Various sectors, one standard:<br>targeted know-how, a transversal approach",
+            "fr": "Des secteurs variés, une même exigence :<br>un savoir-faire ciblé, une approche transversale"
+        },
+        "items": [
+            {
+                "key": "health",
+                "title": {
+                    "en": "Health",
+                    "fr": "Santé"
+                },
+                "tagline": {
+                    "en": "Structuring growth in a changing sector",
+                    "fr": "Structurer la croissance dans un secteur en mutation"
+                },
+                "description": {
+                    "en": "We support healthcare players in their consolidation, development and digitalization challenges, with an agile and rigorous approach. Paramedical, Clinics, care networks, medical coworking, geriatrics...",
+                    "fr": "Nous accompagnons les acteurs de la santé dans leurs enjeux de consolidation, de développement et de digitalisation, avec une approche agile et rigoureuse. Paramédical, Cliniques, réseaux de soins, coworking médical, gériatrie..."
+                },
+                "image": "/img/sectors/health.jpg"
+            },
+            {
+                "key": "media",
+                "title": {
+                    "en": "Media",
+                    "fr": "Média"
+                },
+                "tagline": {
+                    "en": "Connecting creativity and economic performance",
+                    "fr": "Connecter créativité et performance économique"
+                },
+                "description": {
+                    "en": "Our interventions combine financial expertise and fine understanding of cultural and audiovisual models to reveal the full transformation potential of the sector. Media group, distribution, digitalization...",
+                    "fr": "Nos interventions croisent expertise financière et compréhension fine des modèles culturels et audiovisuels pour révéler tout le potentiel de transformation du secteur. Groupe de médias, distribution, digitalisation..."
+                },
+                "image": "/img/sectors/media.jpg"
+            },
+            {
+                "key": "realestate",
+                "title": {
+                    "en": "Real Estate",
+                    "fr": "Immobilier"
+                },
+                "tagline": {
+                    "en": "Thinking beyond the stone",
+                    "fr": "Penser au-delà de la pierre"
+                },
+                "description": {
+                    "en": "We advise operators and investors with a broadened vision of real estate, integrating uses, ESG and hybridization to sustainably enhance assets. Property companies, Management companies, Upco/Propco...",
+                    "fr": "Nous conseillons opérateurs et investisseurs avec une vision élargie de l’immobilier, intégrant usages, ESG et hybridation pour valoriser durablement les actifs. Foncières, Société de Gestion, Upco/Propco..."
+                },
+                "image": "/img/sectors/realestate.jpg"
+            },
+            {
+                "key": "services",
+                "title": {
+                    "en": "Services",
+                    "fr": "Services"
+                },
+                "tagline": {
+                    "en": "Orchestrating customer experience and operational efficiency",
+                    "fr": "Orchestrer l’expérience client et l’efficience opérationnelle"
+                },
+                "description": {
+                    "en": "In a constantly evolving competitive universe, we help service companies structure themselves, differentiate themselves and seize growth opportunities. Hospitality, retail, coliving, coworking, concierge, facility...",
+                    "fr": "Dans un univers concurrentiel en évolution permanente, nous aidons les entreprises de services à se structurer, se différencier et saisir les opportunités de croissance. Hôtellerie, retail, coliving, coworking, conciergerie, facility..."
+                },
+                "image": "/img/sectors/services.jpg"
+            }
+        ]
+    },
+    "team_home": {
+        "title": {
+            "en": "The Team",
+            "fr": "L'équipe"
+        },
+        "board_title": {
+            "en": "Strategic Board",
+            "fr": "Board stratégique"
+        },
+        "directors_title": {
+            "en": "Operational Management",
+            "fr": "Direction Opérationnelle"
+        },
+        "board": [
+            {
+                "name": "Stephane Leduc",
+                "role": {
+                    "en": "Founding Partner",
+                    "fr": "Associé Fondateur"
+                },
+                "image": "/img/team/leduc.jpg"
+            },
+            {
+                "name": "Jean-Marc Boyer",
+                "role": {
+                    "en": "Partner",
+                    "fr": "Associé"
+                },
+                "image": "/img/team/boyer.jpg"
+            },
+            {
+                "name": "Jean-Christophe Ordonneau",
+                "role": {
+                    "en": "Partner",
+                    "fr": "Associé"
+                },
+                "image": "/img/team/ordonneau.jpg"
+            }
+        ],
+        "directors": [
+            {
+                "name": "Vincent Janin",
+                "role": {
+                    "en": "Health & Medico-social",
+                    "fr": "Santé & médico-social"
+                },
+                "image": "/img/team/janin.jpg"
+            },
+            {
+                "name": "Christine Lemaire",
+                "role": {
+                    "en": "Social, HR & Dialogue",
+                    "fr": "Social, RH & dialogue en contexte sensible"
+                },
+                "image": "/img/team/lemaire.jpg"
+            },
+            {
+                "name": "Antoine Baldini",
+                "role": {
+                    "en": "Finance & Complex Engineering",
+                    "fr": "Finance & ingénierie financière complexe"
+                },
+                "image": "/img/team/baldini.jpg"
+            },
+            {
+                "name": "Denis Granger Chancel",
+                "role": {
+                    "en": "Real Estate & New Uses",
+                    "fr": "Immobilier & nouveaux usages tertiaires"
+                },
+                "image": "/img/team/granger.jpg"
+            },
+            {
+                "name": "Darius Modaressi Tehrani",
+                "role": {
+                    "en": "Chief Operating Partner",
+                    "fr": "Chief Operating Partner"
+                },
+                "image": "/img/team/modaressi.jpg"
+            },
+            {
+                "name": "Mathilde Lebrun",
+                "role": {
+                    "en": "Strategic Communication",
+                    "fr": "Communication stratégique"
+                },
+                "image": "/img/team/lebrun.jpg"
+            }
+        ]
+    },
+    "contact_form": {
+        "title": {
+            "en": "Contact Sales",
+            "fr": "Contactez-nous"
+        },
+        "description": {
+            "en": "Let's discuss your challenges and how we can help you overcome them.",
+            "fr": "Discutons de vos enjeux et de la manière dont nous pouvons vous aider à les surmonter."
+        },
+        "first_name": {
+            "en": "First name",
+            "fr": "Prénom"
+        },
+        "last_name": {
+            "en": "Last name",
+            "fr": "Nom"
+        },
+        "company": {
+            "en": "Company",
+            "fr": "Entreprise"
+        },
+        "email": {
+            "en": "Email",
+            "fr": "Email"
+        },
+        "phone": {
+            "en": "Phone number",
+            "fr": "Téléphone"
+        },
+        "country": {
+            "en": "Country",
+            "fr": "Pays"
+        },
+        "message": {
+            "en": "Message",
+            "fr": "Message"
+        },
+        "agree_policy": {
+            "en": "By selecting this, you agree to our",
+            "fr": "En sélectionnant ceci, vous acceptez notre"
+        },
+        "privacy_policy": {
+            "en": "privacy policy",
+            "fr": "politique de confidentialité"
+        },
+        "submit": {
+            "en": "Let's talk",
+            "fr": "Envoyer"
+        }
+    },
+    "values_about": {
+        "title": {
+            "en": "Our Values",
+            "fr": "Nos Valeurs"
+        },
+        "description": {
+            "en": "Guided by strong principles to serve your transformation.",
+            "fr": "Guidés par des principes forts pour servir votre transformation."
+        },
+        "items": [
+            {
+                "title": {
+                    "en": "Excellence",
+                    "fr": "Excellence"
+                },
+                "description": {
+                    "en": "We aim for the highest standards in every mission, delivering precision and quality without compromise.",
+                    "fr": "Nous visons les plus hauts standards dans chaque mission, en livrant précision et qualité sans compromis."
+                }
+            },
+            {
+                "title": {
+                    "en": "Integrity",
+                    "fr": "Intégrité"
+                },
+                "description": {
+                    "en": "We operate with total transparency and independence, ensuring our advice is always in your best interest.",
+                    "fr": "Nous opérons avec une totale transparence et indépendance, garantissant que nos conseils servent toujours vos intérêts."
+                }
+            },
+            {
+                "title": {
+                    "en": "Pragmatism",
+                    "fr": "Pragmatisme"
+                },
+                "description": {
+                    "en": "We focus on concrete, actionable solutions that deliver tangible results, not just theoretical concepts.",
+                    "fr": "Nous nous concentrons sur des solutions concrètes et actionnables qui apportent des résultats tangibles."
+                }
+            }
+        ]
+    },
+    "cta_about": {
+        "title": {
+            "en": "Facing a critical challenge?<br>Let's discuss your strategy.",
+            "fr": "Un défi critique à relever ?<br>Discutons stratégie."
+        },
+        "button": {
+            "en": "Get in Touch",
+            "fr": "Prendre rendez-vous"
+        }
+    },
+    "footer": {
+        "tagline": {
+            "en": "Strategic Consulting in Critical Transitions.",
+            "fr": "Conseil en Stratégie<br>Phases de Transition Critique."
+        },
+        "copyright": {
+            "en": "All rights reserved.",
+            "fr": "Tous droits réservés."
+        },
+        "nav": [
+            {
+                "key": "home",
+                "link": "/"
+            },
+            {
+                "key": "services",
+                "link": "/services/"
+            },
+            {
+                "key": "about",
+                "link": "/about/"
+            },
+            {
+                "key": "contact",
+                "link": "/contact/"
+            }
+        ],
+        "legal": [
+            {
+                "title": {
+                    "en": "Legal Notice",
+                    "fr": "Mentions Légales"
+                },
+                "link": {
+                    "en": "/en/legal-notice/",
+                    "fr": "/fr/mentions-legales/"
+                }
+            },
+            {
+                "title": {
+                    "en": "Privacy Policy",
+                    "fr": "Politique de Confidentialité"
+                },
+                "link": {
+                    "en": "/en/privacy-policy/",
+                    "fr": "/fr/politique-confidentialite/"
+                }
+            }
+        ]
+    }
+}

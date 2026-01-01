@@ -1,0 +1,121 @@
+---
+layout: base.njk
+title: À Propos
+description: En savoir plus sur Kerlinkin, nos valeurs et notre équipe.
+permalink: /fr/a-propos/
+pageKey: "about"
+
+
+---
+
+<div class="bg-white">
+  <!-- Header -->
+
+
+  <main class="relative isolate">
+    <!-- Background -->
+
+
+    <!-- Header section -->
+    <div class="px-6 pt-14 lg:px-8">
+      <div class="mx-auto max-w-2xl pt-24 text-center sm:pt-40">
+        <h1 class="text-5xl font-semibold tracking-tight text-teal-900 sm:text-6xl">{{ i18n.nav.about[locale] }}</h1>
+        <p class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">Kerlinkin accompagne les dirigeants d'entreprises de toutes tailles dans les phases de transition critique : retournement, sous-performance, restructuration financière ou rebond stratégique.</p>
+      </div>
+    </div>
+
+    <!-- Stat section -->
+    <div class="mx-auto mt-20 max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+        <div class="grid max-w-xl grid-cols-1 gap-8 text-base/7 text-gray-600 lg:max-w-none lg:grid-cols-2">
+          <div>
+            <p>Nous apportons une expertise opérationnelle et financière pour sécuriser l'avenir de votre entreprise. Notre approche est pragmatique, travaillant directement avec les équipes dirigeantes pour mettre en œuvre des stratégies de redressement et de croissance efficaces.</p>
+            <p class="mt-8">Du diagnostic des causes profondes de la sous-performance à la négociation avec les parties prenantes et à la mise en œuvre de mesures de préservation de la trésorerie, nous sommes à vos côtés dans les moments les plus difficiles.</p>
+          </div>
+          <div>
+            <p>Notre équipe est composée de professionnels chevronnés ayant une profonde expérience de la gestion de crise, de l'ingénierie financière et de la restructuration opérationnelle. Nous croyons en des solutions sur mesure qui donnent des résultats tangibles.</p>
+            <p class="mt-8">Que vous fassiez face à une crise de liquidité, que vous ayez besoin de restructurer votre dette ou que vous cherchiez à faire pivoter votre modèle commercial, Kerlinkin offre les conseils stratégiques et la capacité d'exécution dont vous avez besoin.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    {% include "components/fundamentals.njk" %}
+
+    <!-- Image section -->
+    <div class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
+      <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2894&q=80" alt="" class="aspect-9/4 w-full object-cover outline-1 -outline-offset-1 outline-black/5 xl:rounded-3xl" />
+    </div>
+
+    <!-- Feature section -->
+    <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+      <div class="mx-auto max-w-2xl lg:mx-0">
+        <h2 class="text-4xl font-semibold tracking-tight text-pretty text-teal-900 sm:text-5xl">{{ i18n.values_about.title[locale] }}</h2>
+        <p class="mt-6 text-lg/8 text-gray-700">{{ i18n.values_about.description[locale] }}</p>
+      </div>
+      <dl class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base/7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-16">
+        {% for value in i18n.values_about.items %}
+        <div class="relative pl-9">
+          <dt class="inline font-semibold text-gray-900">
+            <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true" class="absolute top-1 left-1 size-5 text-emerald-600">
+              <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0 1 12 2v5h4a1 1 0 0 1 .82 1.573l-7 10A1 1 0 0 1 8 18v-5H4a1 1 0 0 1-.82-1.573l7-10a1 1 0 0 1 .12-.08Z" clip-rule="evenodd" />
+            </svg>
+            {{ value.title[locale] }}
+          </dt>
+          <dd class="inline">{{ value.description[locale] }}</dd>
+        </div>
+        {% endfor %}
+      </dl>
+    </div>
+
+    <!-- Team section -->
+    <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8 pb-16 sm:pb-24">
+      <div class="mx-auto max-w-2xl lg:mx-0">
+        <h2 class="text-4xl font-semibold tracking-tight text-pretty text-teal-900 sm:text-5xl">{{ i18n.team_home.title[locale] }}</h2>
+      </div>
+
+       <!-- Board Section -->
+       <div class="border-t border-gray-200 pt-16 grid grid-cols-1 lg:grid-cols-4 gap-y-8 mt-16">
+            <div class="lg:col-span-1">
+                 <h3 class="text-xl font-semibold text-teal-900/80">{{ i18n.team_home.board_title[locale] }}</h3>
+            </div>
+            <div class="lg:col-span-3">
+                 <ul role="list" class="space-y-10">
+                    {% for person in i18n.team_home.board %}
+                    <li class="flex items-center gap-x-6 border-b border-gray-100 pb-8 last:border-0 last:pb-0">
+                        <img src="{{ person.image }}" alt="" class="size-20 rounded-lg grayscale object-cover bg-gray-50" />
+                        <div>
+                            <h3 class="text-lg font-semibold tracking-tight text-gray-900">{{ person.name }}</h3>
+                            <p class="text-sm font-medium text-gray-500">{{ person.role[locale] }}</p>
+                        </div>
+                    </li>
+                    {% endfor %}
+                 </ul>
+            </div>
+       </div>
+
+       <!-- Directors Section -->
+       <div class="border-t border-gray-200 pt-16 grid grid-cols-1 lg:grid-cols-4 gap-y-8 mt-16">
+            <div class="lg:col-span-1">
+                 <h3 class="text-xl font-semibold text-teal-900/80">{{ i18n.team_home.directors_title[locale] }}</h3>
+            </div>
+            <div class="lg:col-span-3">
+                 <ul role="list" class="grid gap-x-8 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
+                    {% for person in i18n.team_home.directors %}
+                    <li>
+                        <h3 class="text-base font-semibold tracking-tight text-gray-900 border-b border-gray-200 pb-2 mb-2">{{ person.name }}</h3>
+                        <p class="text-sm text-gray-600">{{ person.role[locale] }}</p>
+                    </li>
+                    {% endfor %}
+                 </ul>
+            </div>
+       </div>
+    </div>
+
+
+
+  </main>
+
+  <!-- Footer -->
+
+</div>

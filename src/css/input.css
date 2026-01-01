@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  /* Define custom theme values here or use CSS variables */
+  /* Extracted from logo: Deep Teal Primary and Emerald Green */
+  --color-brand-primary: #124f5c;
+  --color-brand-secondary: #10b981;
+  --color-brand-dark: #0f172a;
+  --color-brand-accent: #059669;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Playfair Display', serif;
+}
+
+/* Custom Utilities if needed */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

@@ -45,11 +45,11 @@ pageKey: "home"
       </div>
       <dl class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base/7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         {% for item in i18n.services_new.items %}
-        <div class="flex flex-col border border-gray-200 rounded-2xl p-8 bg-white">
-          <dt class="text-2xl font-semibold tracking-tight text-gray-900">{{ item.title[locale] }}</dt>
+        <div class="flex flex-col border border-teal-800 rounded-2xl p-8 bg-teal-950">
+          <dt class="text-2xl font-semibold tracking-tight text-white">{{ item.title[locale] }}</dt>
           <dd class="mt-4">
-            <p class="font-medium text-brand-secondary">{{ item.tagline[locale] }}</p>
-            <p class="mt-2 text-gray-600">{{ item.description[locale] }}</p>
+            <p class="font-medium text-teal-400">{{ item.tagline[locale] }}</p>
+            <p class="mt-2 text-gray-300">{{ item.description[locale] }}</p>
           </dd>
         </div>
         {% endfor %}

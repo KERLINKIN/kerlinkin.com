@@ -5,14 +5,14 @@
       <h2 class="text-3xl font-semibold tracking-tight text-white sm:text-4xl">{{ i18n.cta_about.title[locale] | safe }}</h2>
       <p class="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-400">{{ i18n.contact_form.description[locale] }}</p>
       <div class="mt-8 flex justify-center">
-        <a href="{{ i18n.nav.contact.link[locale] }}" class="rounded-md bg-teal-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-teal-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600">{{ i18n.cta_about.button[locale] }}</a>
+        <a href="{{ i18n.nav.contact.link[locale] }}" class="rounded-md bg-teal-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-emerald-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600">{{ i18n.cta_about.button[locale] }}</a>
       </div>
     </div>
     
     <!-- Footer Links -->
     <div class="mt-24 border-t border-white/10 pt-12 xl:grid xl:grid-cols-3 xl:gap-8">
       <div class="space-y-8">
-         <a href="/{{ locale }}/" class="block w-40 text-white hover:text-teal-400 transition-colors duration-200">
+         <a href="/{{ locale }}/" class="block w-40 text-white hover:text-emerald-400 transition-colors duration-200">
             <span class="sr-only">Kerlinkin</span>
             <svg class="h-9 w-auto" viewBox="0 0 200 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <text x="0" y="30" fill="currentColor" font-family="'Sora', sans-serif" font-size="28" font-weight="800" letter-spacing="0.05em">KERLINKIN</text>
@@ -26,17 +26,17 @@
           <div>
             <h3 class="text-sm/6 font-semibold text-white">Navigation</h3>
             <ul role="list" class="mt-6 space-y-4">
-              <li><a href="{{ i18n.nav.home.link[locale] }}" class="text-sm/6 text-gray-400 hover:text-white">{{ i18n.nav.home[locale] }}</a></li>
-              <li><a href="{{ i18n.nav.services.link[locale] }}" class="text-sm/6 text-gray-400 hover:text-white">{{ i18n.nav.services[locale] }}</a></li>
-              <li><a href="{{ i18n.nav.about.link[locale] }}" class="text-sm/6 text-gray-400 hover:text-white">{{ i18n.nav.about[locale] }}</a></li>
-              <li><a href="{{ i18n.nav.contact.link[locale] }}" class="text-sm/6 text-gray-400 hover:text-white">{{ i18n.nav.contact[locale] }}</a></li>
+              <li><a href="{{ i18n.nav.home.link[locale] }}" class="text-sm/6 text-gray-400 hover:text-emerald-400">{{ i18n.nav.home[locale] }}</a></li>
+              <li><a href="{{ i18n.nav.services.link[locale] }}" class="text-sm/6 text-gray-400 hover:text-emerald-400">{{ i18n.nav.services[locale] }}</a></li>
+              <li><a href="{{ i18n.nav.about.link[locale] }}" class="text-sm/6 text-gray-400 hover:text-emerald-400">{{ i18n.nav.about[locale] }}</a></li>
+              <li><a href="{{ i18n.nav.contact.link[locale] }}" class="text-sm/6 text-gray-400 hover:text-emerald-400">{{ i18n.nav.contact[locale] }}</a></li>
             </ul>
           </div>
           <div class="mt-10 md:mt-0">
             <h3 class="text-sm/6 font-semibold text-white">Legal</h3>
              <ul role="list" class="mt-6 space-y-4">
               {% for item in i18n.footer.legal %}
-              <li><a href="{{ item.link[locale] }}" class="text-sm/6 text-gray-400 hover:text-white">{{ item.title[locale] }}</a></li>
+              <li><a href="{{ item.link[locale] }}" class="text-sm/6 text-gray-400 hover:text-emerald-400">{{ item.title[locale] }}</a></li>
               {% endfor %}
             </ul>
           </div>

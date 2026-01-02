@@ -1,6 +1,7 @@
 module.exports = function (eleventyConfig) {
-  // Passthrough copy for images and fonts
+  // Passthrough copy for images, fonts, and scripts
   eleventyConfig.addPassthroughCopy("src/img");
+  eleventyConfig.addPassthroughCopy("src/js");
 
   // Watch CSS changes (although Tailwind watcher handles the build, 11ty needs to know to reload)
   // We'll rely on the browser-sync/dev server to handle CSS reloads usually, 

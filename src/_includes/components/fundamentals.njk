@@ -1,7 +1,7 @@
-<div class="bg-white py-16 sm:py-24">
+<div class="py-16 sm:py-24">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0">
-        <h2 class="text-4xl font-semibold tracking-tight text-pretty text-teal-900 sm:text-5xl">{{ i18n.fundamentals_home.title[locale] }}</h2>
+        <h2 class="text-4xl font-semibold tracking-tight text-pretty {{ fundamentalsTitleColor if fundamentalsTitleColor else 'text-teal-900' }} sm:text-5xl">{{ i18n.fundamentals_home.title[locale] | safe }}</h2>
       </div>
       <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <!-- Item 1: White -->

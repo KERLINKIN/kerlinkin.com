@@ -6,9 +6,24 @@ pageKey: "home"
 ---
 
 <div class="bg-white">
+    <!-- Hero Section Container - Lighter Teal Base for better visibility -->
+    <div class="relative isolate overflow-hidden bg-teal-900 pb-16 pt-14 sm:pb-20">
+      
+      <!-- Animated Gradient Blobs - Lighter colors for contrast -->
+      <div class="absolute inset-0 overflow-hidden pointer-events-none">
+          <div class="absolute -top-[10%] -left-[10%] w-96 h-96 bg-teal-500 rounded-full mix-blend-overlay filter blur-3xl opacity-40 animate-blob"></div>
+          <div class="absolute top-[10%] right-[10%] w-96 h-96 bg-emerald-500 rounded-full mix-blend-overlay filter blur-3xl opacity-40 animate-blob animation-delay-2000"></div>
+          <div class="absolute -bottom-[20%] left-[20%] w-96 h-96 bg-teal-400 rounded-full mix-blend-overlay filter blur-3xl opacity-40 animate-blob animation-delay-4000"></div>
+          <div class="absolute bottom-[10%] right-[30%] w-72 h-72 bg-emerald-400 rounded-full mix-blend-overlay filter blur-3xl opacity-40 animate-blob animation-delay-2000"></div>
+      </div>
 
+      <!-- Backdrop Blur causing "Frosted Glass" effect over blobs -->
+      <div class="absolute inset-0 bg-transparent backdrop-blur-3xl -z-10"></div>
+      
+      <!-- Particles.js container -->
+      <div id="particles-js" class="absolute inset-0 -z-1 opacity-60 mix-blend-screen"></div>
 
-  <div class="relative isolate px-6 pt-14 lg:px-8">
+    <div class="relative mx-auto max-w-7xl px-6 lg:px-8 z-10">
 
     <div class="mx-auto max-w-4xl py-16 sm:py-24">
       <!-- Announcement Banner (Hidden for now as no content provided)
@@ -19,25 +34,29 @@ pageKey: "home"
       </div>
       -->
       <div class="text-center">
-        <h1 class="text-5xl font-semibold tracking-tight text-balance text-teal-900 sm:text-6xl">
+        <h1 class="text-5xl font-semibold tracking-tight text-balance text-white sm:text-6xl">
             {{ i18n.hero.title[locale] }}
         </h1>
-        <p class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
+        <p class="mt-8 text-lg font-medium text-pretty text-teal-100 sm:text-xl/8">
             {{ i18n.hero.description[locale] }}
         </p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
-          <a href="/{{ locale }}/contact/" class="rounded-md bg-teal-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-teal-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-700">
+          <a href="/{{ locale }}/contact/" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-teal-900 shadow-xs hover:text-emerald-600 transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
               {{ i18n.hero.cta[locale] }}
           </a>
-          <a href="#services" class="text-sm/6 font-semibold text-teal-700 hover:text-teal-900 transition-colors duration-200">{{ i18n.hero.learn_more[locale] }} <span aria-hidden="true">→</span></a>
+          <a href="#services" class="text-sm/6 font-semibold text-white hover:text-emerald-400 transition-colors duration-200">{{ i18n.hero.learn_more[locale] }} <span aria-hidden="true">→</span></a>
         </div>
       </div>
     </div>
 
+    </div>
   </div>
+  
+  <script src="/js/vendor/particles.min.js" defer></script>
+  <script src="/js/hero-particles.js" defer></script>
 
   <!-- Services Section -->
-  <div id="services" class="bg-white py-16 sm:py-24">
+  <div id="services" class="py-16 sm:py-24">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0">
         <h2 class="text-4xl font-semibold tracking-tight text-pretty text-teal-900 sm:text-5xl">{{ i18n.services_new.title[locale] }}</h2>
@@ -60,7 +79,7 @@ pageKey: "home"
   {% include "components/fundamentals.njk" %}
 
   <!-- Sectors Section -->
-  <div class="bg-white py-16 sm:py-24">
+  <div class="py-16 sm:py-24">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-7xl lg:mx-0 mb-16 border-t pt-8 border-gray-200">
         <h2 class="text-4xl font-semibold tracking-tight text-teal-900 sm:text-5xl">{{ i18n.sectors_home.title[locale] | safe }}</h2>

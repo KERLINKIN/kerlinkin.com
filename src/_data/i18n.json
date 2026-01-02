@@ -410,6 +410,14 @@
                     "fr": "Communication stratégique"
                 },
                 "image": "/img/team/lebrun.jpg"
+            },
+            {
+                "name": "André Bazaille",
+                "role": {
+                    "en": "IT, Infrastructures & Digital Transformation",
+                    "fr": "IT, infrastructures & transformation digitale"
+                },
+                "image": "/img/team/bazaille.jpg"
             }
         ]
     },

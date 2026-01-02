@@ -40,33 +40,6 @@ pageKey: "about"
 
       </div>
     </div>
-    {% include "components/fundamentals.njk" %}
-
-    <!-- Image section -->
-    <div class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
-      <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2894&q=80" alt="" class="aspect-9/4 w-full object-cover outline-1 -outline-offset-1 outline-black/5 xl:rounded-3xl" />
-    </div>
-
-    <!-- Feature section -->
-    <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
-      <div class="mx-auto max-w-2xl lg:mx-0">
-        <h2 class="text-4xl font-semibold tracking-tight text-pretty text-teal-900 sm:text-5xl">{{ i18n.values_about.title[locale] }}</h2>
-        <p class="mt-6 text-lg/8 text-gray-700">{{ i18n.values_about.description[locale] }}</p>
-      </div>
-      <dl class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base/7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-16">
-        {% for value in i18n.values_about.items %}
-        <div class="relative pl-9">
-          <dt class="inline font-semibold text-gray-900">
-            <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true" class="absolute top-1 left-1 size-5 text-emerald-600">
-              <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0 1 12 2v5h4a1 1 0 0 1 .82 1.573l-7 10A1 1 0 0 1 8 18v-5H4a1 1 0 0 1-.82-1.573l7-10a1 1 0 0 1 .12-.08Z" clip-rule="evenodd" />
-            </svg>
-            {{ value.title[locale] }}
-          </dt>
-          <dd class="inline">{{ value.description[locale] }}</dd>
-        </div>
-        {% endfor %}
-      </dl>
-    </div>
 
     <!-- Team section -->
     <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8 pb-16 sm:pb-24">
@@ -111,6 +84,8 @@ pageKey: "about"
             </div>
        </div>
     </div>
+
+    {% include "components/fundamentals.njk" %}
 
 
 

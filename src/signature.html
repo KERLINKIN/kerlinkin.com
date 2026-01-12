@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Kerlinkin Signature</title>
+</head>
+
+<body>
+    <div id="signature-preview">
+        <table cellpadding="0" cellspacing="0" border="0"
+            style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.4; color: #333333;">
+            <tr>
+                <td style="padding-top: 0; padding-bottom: 0; vertical-align: middle;">
+                    <div style="font-size: 14px; font-weight: bold; color: #000000; margin-bottom: 2px;">
+                        Prénom NOM
+                    </div>
+                    <div style="font-size: 14px; font-weight: lighter; color: #3d3d3d; margin-bottom: 2px;">
+                        Rôle
+                    </div>
+                    <div style="margin-bottom: 8px;">
+                        <a href="tel:+33683929555" style="color: #333333; text-decoration: none; font-weight: normal;">
+                            +33 000 000 000
+                        </a>
+                    </div>
+
+                    <div style="margin-bottom: -5px; color: #134e4a;">
+                        <!-- Secondary Text Logo -->
+                        <a href="https://www.kerlinkin.com"
+                            style="text-decoration: none; border: 0; display: block; color: #134e4a;">
+                            <svg class="h-12 w-auto" viewBox="0 0 200 40" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                width="150" height="30"
+                                style="display: block; margin-top: -5px; margin-bottom: 0px; border: 0;">
+                                <style>
+                                    @import url('https://fonts.googleapis.com/css2?family=Sora:wght@800&amp;display=swap');
+                                </style>
+                                <text x="0" y="30" fill="currentColor" font-family="'Sora', sans-serif" font-size="28"
+                                    font-weight="800" letter-spacing="0.05em">KERLINKIN</text>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div style="margin-bottom: 0px; margin-top: -2px;">
+                        <span style="color: #333333;">
+                            19 BOULEVARD MALESHERBES, 75008 PARIS
+                        </span>
+                    </div>
+
+                    <div>
+                        <a href="https://www.kerlinkin.com"
+                            style="color: #333333; text-decoration: none; font-size: 14px; font-weight: normal;">
+                            www.kerlinkin.com
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Tools Section -->
+    <div
+        style="margin-top: 40px; padding: 20px; border-top: 1px solid #ccc; font-family: sans-serif; background: #f9f9f9;">
+        <h3 style="margin-top: 0;">Code HTML de la signature</h3>
+        <p style="font-size: 14px; color: #666;">Cliquez sur le bouton ci-dessous pour copier le code HTML, puis
+            collez-le dans les paramètres de signature de votre messagerie.</p>
+        <textarea id="signature-code"
+            style="width: 100%; height: 150px; font-family: monospace; margin-bottom: 10px; border: 1px solid #ccc; padding: 8px;"
+            readonly></textarea>
+        <div>
+            <button onclick="copySignatureCode()"
+                style="padding: 10px 20px; background: #0d9488; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; font-size: 14px;">
+                Copier le code HTML
+            </button>
+            <span id="copy-status" style="margin-left: 10px; color: #0d9488; font-weight: bold; display: none;">Copié
+                !</span>
+        </div>
+
+        <div style="margin-top: 30px; border-top: 1px solid #eee; padding-top: 20px;">
+            <h3 style="margin-top: 0; color: #333;">Comment installer votre signature ?</h3>
+
+            <h4 style="margin-bottom: 5px; color: #0d9488;">Google Workspace / Gmail</h4>
+            <p style="font-size: 14px; color: #555; margin-top: 5px; line-height: 1.5;">Gmail n'a pas de bouton HTML.
+                Vous devez copier le <strong>résultat visuel</strong> depuis votre navigateur.</p>
+            <ol style="font-size: 14px; color: #555; margin-top: 5px; line-height: 1.5;">
+                <li>Ouvrez ce fichier dans votre navigateur (Chrome, Safari...).</li>
+                <li>Faites <strong>Cmd + A</strong> (Tout sélectionner) puis <strong>Cmd + C</strong> (Copier).</li>
+                <li>Dans Gmail : <strong>Paramètres > Voir tous les paramètres > Signature</strong>.</li>
+                <li>Cliquez sur <strong>+ Créer</strong>, nommez-la, et faites <strong>Coller (Cmd + V)</strong> dans la
+                    zone de droite.</li>
+                <li><strong>Configuration :</strong> Dans "Paramètres par défaut", sélectionnez votre nouvelle signature
+                    pour les nouveaux e-mails et réponses.</li>
+                <li><strong>Cochez</strong> "Insérer la signature avant le texte des messages précédents..." si
+                    souhaité.</li>
+                <li>Cliquez sur <strong>Enregistrer les modifications</strong> tout en bas.</li>
+                <li><em>Si l'image est brisée :</em> Utilisez le bouton "Insérer une image" > "Adresse Web (URL)" et
+                    collez l'URL de votre logo hosté (ex:
+                    <code>https://kerlinkin.netlify.app/assets/images/logo.png</code>).</li>
+            </ol>
+
+            <h4 style="margin-bottom: 5px; color: #0d9488;">Apple Mail (Mac)</h4>
+            <p style="font-size: 14px; color: #555; margin-top: 5px; line-height: 1.5;">Apple Mail ne permet pas de
+                coller directement du HTML. Il faut remplacer un fichier de signature existant.</p>
+            <ol style="font-size: 14px; color: #555; margin-top: 5px; line-height: 1.5;">
+                <li>Dans <strong>Mail > Réglages > Signatures</strong>, créez une nouvelle signature "fictive" (ex:
+                    "HTML Signature") avec un texte simple.</li>
+                <li><strong>Quittez complètement "Mail" (Cmd+Q).</strong> C'est crucial.</li>
+                <li>Dans le Finder, allez à <code>~/Library/Mail/</code> (via le menu "Aller > Aller au dossier").</li>
+                <li>Ouvrez le dossier <code>V10</code> (ou le chiffre le plus élevé) > <code>MailData</code> >
+                    <code>Signatures</code>.
+                </li>
+                <li>Trouvez le fichier <code>.mailsignature</code> le plus récent et ouvrez-le avec TextEdit.</li>
+                <li>Gardez les premières lignes d'en-tête (MIME-Version, etc.) et <strong>remplacez tout le contenu en
+                        dessous</strong> par votre code HTML.</li>
+                <li>Sauvegardez, puis faites <strong>Lire les informations (Cmd+I)</strong> sur le fichier et cochez
+                    <strong>"Verrouillé"</strong> pour empêcher Mail de l'écraser.
+                </li>
+                <li>Rouvrez Mail.</li>
+            </ol>
+
+            <h4 style="margin-bottom: 5px; color: #0d9488;">iPhone (iOS Mail)</h4>
+            <p style="font-size: 14px; color: #555; margin-top: 5px; line-height: 1.5;">Vous devez copier le rendu
+                visuel et utiliser une astuce pour préserver le formatage.</p>
+            <ol style="font-size: 14px; color: #555; margin-top: 5px; line-height: 1.5;">
+                <li>Ouvrez cette page sur votre iPhone (ou envoyez-vous la signature par email) et <strong>copiez tout
+                        le rendu visuel</strong> (pas le code HTML).</li>
+                <li>Allez dans <strong>Réglages > Mail > Signature</strong>.</li>
+                <li>Collez la signature dans la zone de texte.</li>
+                <li><strong>Si le formatage casse :</strong> Secouez immédiatement votre iPhone pour faire apparaître
+                    "Annuler les attributs" et cliquez sur <strong>Annuler</strong>. Cela restaurera le style original.
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <script>
+        // Update textarea with signature HTML
+        function updateCode() {
+            const signatureHTML = document.getElementById('signature-preview').innerHTML;
+            // Beautify slightly by trimming whitespace but keeping structure
+            const cleanHTML = signatureHTML.replace(/^\s+/gm, '').trim();
+            document.getElementById('signature-code').value = signatureHTML.trim();
+        }
+
+        updateCode();
+
+        function copySignatureCode() {
+            const copyText = document.getElementById("signature-code");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+
+            try {
+                navigator.clipboard.writeText(copyText.value).then(() => {
+                    showStatus();
+                });
+            } catch (err) {
+                // Fallback
+                document.execCommand('copy');
+                showStatus();
+            }
+        }
+
+        function showStatus() {
+            const status = document.getElementById('copy-status');
+            status.style.display = 'inline';
+            setTimeout(() => { status.style.display = 'none'; }, 2000);
+        }
+    </script>
+</body>
+
+</html>
